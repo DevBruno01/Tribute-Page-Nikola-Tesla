@@ -25,6 +25,10 @@
     text-align: center;
 }
 
+#tribute-info ul{
+    list-style: none;
+}
+
 #tribute-info h3{
     margin: 10px 0px;
 }
@@ -43,3 +47,45 @@ footer{
     text-align: center;
 }
 
+@media (min-width: 2560px) {
+    .title h1{
+        font-size: 100px;
+    }
+
+    .title p{
+        font-size: 50px;
+    }
+
+    img{
+        width: 750px;
+        height: 500px;
+    }
+
+    #image{
+        font-size: 50px;
+    }
+
+    #tribute-info h3{
+        font-size: 30px;
+    }
+    
+    #tribute-info strong{
+        font-size: 30px;
+    }
+
+    #tribute-info li{
+        font-size: 30px;
+    }
+
+    #tribute-info p{
+        font-size: 45px;
+    }
+
+    #tribute-info a{
+        font-size: 40px;
+    }
+
+    footer{
+        font-size: 30px;
+    }
+}
